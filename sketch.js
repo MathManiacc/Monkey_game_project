@@ -61,7 +61,7 @@ function draw() {
   stroke("black");
   textSize(20);
   fill("black")
-  survivalTime = Math.round(frameCount/frameRate());
+  survivalTime = World.seconds;
   text("Survival Time: " + survivalTime, 140, 50);
 }
 
